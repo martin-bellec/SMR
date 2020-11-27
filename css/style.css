@@ -14,11 +14,6 @@
 @import url("components/profil.css");
 
 
-
-
-
-
-
 body {
 	margin: 0px;
 	color: rgb(240,240,240);
@@ -34,10 +29,7 @@ h2 {font-size: 20px;
 	font-weight: lighter;	
 
 }
-button{font-size: 20px;
-	font-family: 'poppins', sans serif;
-	padding: 5px;
-}
+
 
 p{  
 	font-family: 'poppins', sans serif;
@@ -82,4 +74,25 @@ h3{
   margin-top: 8px;
   vertical-align: middle;
   width: 25%;
+}
+
+.btn{
+	height: 50px;
+	width: 50px;
+	background: black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+}
+.icone{
+	width: 50px
+}	
+:root {
+    --ecriture: #f1f1f1;
+    --background: #262626;
 }
